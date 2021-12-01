@@ -1,0 +1,1 @@
+function CreatBT(l){this.lis=l.querySelectorAll("li"),this.h1=l.querySelectorAll("h1"),this.click()}CreatBT.prototype.click=function(){for(let l=0;l<this.lis.length;l++)this.lis[l].onclick=()=>{for(let l=0;l<this.lis.length;l++)this.lis[l].className="",this.h1[l].className="";this.h1[l].className="show tp"}};
